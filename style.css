@@ -1,0 +1,172 @@
+
+
+.image{
+    background: url('./assets/background.jpg');
+    width: 100%;
+    height: 40vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.image h3{
+    color: rgb(219, 68, 68);
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+.image h1{
+    font-size: 70px;
+    font-weight: 500;   
+}
+
+.product , .about,.purchase{
+    width: 70%;
+    margin: 60px auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.heading h5 a{
+    color: red;    
+}
+
+.heading h1 , .about h1{
+    font-weight: 400;
+}
+
+hr{
+    margin: 20px auto 70px auto;
+    border-color:#85858533;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 21px;
+}
+
+.card{
+    border: 1px solid #e4e4e4;
+    width: 340px;
+}
+
+.imagebox{
+    width: 100%;
+}
+
+.imagebox img{
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    margin: 25px;
+}
+
+.title h3,.left h3,.write h3{
+    color: #1a66a0;
+    font-weight: 450;
+}
+
+.title .price{
+    color: black;
+}
+
+.para p,.box p,.left ul li a{
+    font-weight: 300;
+    margin: 10px auto;
+    font-size: 15px;
+    color: black;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(236, 72, 72);
+    font-size: 13px;
+    margin: 20px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left p a{
+    color: #007BFF;  
+}
+
+.left ul li{
+    list-style: square;
+    margin: 30px 0 30px 15px;
+}
+
+.left ul li:hover,.left ul li a:hover{
+    color: rgb(226, 92, 92);
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+button a{
+    color: #e4e4e4;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.left,.right{
+    width: 48%;
+}
+
+.about hr{
+    margin: 50px auto;
+}
+
+.purchase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.write{
+    background-color: #e2dddd;
+    padding: 20px;
+}
+
+.out {
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
