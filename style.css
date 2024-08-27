@@ -135,7 +135,7 @@ button a{
 }
 
 button:hover{
-    background-color: black;
+    background-color: black; 
 }
 
 .left,.right{
@@ -150,11 +150,8 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;  
-}
-
-.write{
-    background-color: #e2dddd;
-    padding: 20px;
+     background-color: #e2dddd;
+    padding: 40px;
 }
 
 .out {
